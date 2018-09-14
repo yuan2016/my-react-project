@@ -1,0 +1,36 @@
+.login-form {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 365px;
+    height: 350px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 3px 3px 0 #F5F5F3;
+    padding:20px 30px 0 30px;
+    background-color: #fff;
+}
+.loginRowFirst {
+    border-bottom: 1px solid #ccc;
+}
+
+.loginTitle {
+    font-size:14px;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.ant-form-item-children, .loginRemember {
+    font-size: 12px!important;
+}
+
+.login-form-forgot {
+    position: relative;
+    right: -186px;
+    top: 0;
+}
+
+.login-form-button {
+    width:100%;
+    display: block;
+}
